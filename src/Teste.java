@@ -1,6 +1,7 @@
 import dio.desafio.gof.SingletonEager;
 import dio.desafio.gof.SingletonLazy;
 import dio.desafio.gof.SingletonLazyHolder;
+import dio.facade.Facade;
 import dio.strategy.Comportamento;
 import dio.strategy.ComportamentoAgressivo;
 import dio.strategy.ComportamentoDefensivo;
@@ -44,6 +45,11 @@ public class Teste {
         robo.mover();
         robo.mover();
         robo.mover();
+
+        //facade
+
+        Facade facade = new Facade();
+        facade.migrarCliente("João","37540000");
 
 
 
