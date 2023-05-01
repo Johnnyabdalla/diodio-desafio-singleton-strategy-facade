@@ -45,6 +45,7 @@ public class Teste {
         robo.mover();
         robo.mover();
         robo.mover();
+        robo.mover();
 
         //facade
 
